@@ -8,7 +8,7 @@ def subtract(a, b):
 
 def main():
     print("Simple Calculator")
-    print("Available operations: add, subtract, multiply, divide")
+    print("Available operations: add, subtract")
     
     op = input("Enter operation: ").strip().lower()
     try:
