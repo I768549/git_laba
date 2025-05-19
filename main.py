@@ -6,7 +6,13 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def hotfix():
+    print("SWEAR TO GOD I FIXED SOMETHING")
+    #source: just trust me, bro
+
 def main():
+    for i in range(100):
+        hotfix()
     print("Simple Calculator")
     print("Available operations: add, subtract")
     
