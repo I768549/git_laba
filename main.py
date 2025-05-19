@@ -6,9 +6,13 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def multiply(a, b):
+    return a * b
+
+
 def main():
     print("Simple Calculator")
-    print("Available operations: add, subtract, multiply, divide")
+    print("Available operations: add, subtract, multiply")
     
     op = input("Enter operation: ").strip().lower()
     try:
@@ -22,6 +26,8 @@ def main():
         result = add(num1, num2)
     elif op == "subtract":
         result = subtract(num1, num2)
+    elif op == "multiply":
+        result = multiply(num1, num2)
 
     print("Result:", result)
 
